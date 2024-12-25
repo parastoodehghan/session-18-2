@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #4f57cb;
+}
+
+.counter-container {
+  text-align: center;
+  background: #c8cbf3;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+}
+
+.counter-container h1 {
+  font-size: 3rem;
+  margin: 0 0 1.5rem;
+  color: #212662;
+}
+.counter-container button {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-increment {
+  background-color: #38e460;
+  color: white;
+}
+
+.button-increment:hover {
+  background-color: #218838;
+}
+
+/* دکمه کاهش */
+.button-decrement {
+  background-color: #e52a3c;
+  color: white;
+}
+
+.button-decrement:hover {
+  background-color: #c82333;
+}
+
+/* دکمه ریست */
+.button-reset {
+  background-color: #6c757d;
+  color: white;
+}
+
+.button-reset:hover {
+  background-color: #353c41;
+}
